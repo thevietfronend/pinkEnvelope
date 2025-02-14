@@ -18,8 +18,8 @@
           <div class="letter-corner corner-tl"></div>
           <div class="letter-corner corner-br"></div>
           <div class="message">
-            <p>Chúc cậu,</p>
-            <p>Valentine vui vẻ =>></p>
+            <p>I miss you,</p>
+            <p>I love you in every universe</p>
           </div>
         </div>
         <div class="hearts">
@@ -38,26 +38,10 @@
       <button id="open">Mở Bức Thư</button>
       <button id="reset">Đóng Bức Thư</button>
     </div>
-
+    <div class="cre">
+      <h1 style="color: white">VietHung Give You💕</h1>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        const envelope = $("#envelope");
-        const btnOpen = $("#open");
-        const btnReset = $("#reset");
-
-        envelope.on("click", open);
-        btnOpen.on("click", open);
-        btnReset.on("click", close);
-
-        function open() {
-          envelope.removeClass("close").addClass("open");
-        }
-
-        function close() {
-          envelope.removeClass("open").addClass("close");
-        }
-      });
-    </script>
+    <script src="./main.js"></script>
   </body>
 </html>
